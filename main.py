@@ -101,7 +101,7 @@ def main():
     # create levels
     levels = [
         Level(speed=5, obstacles=[], food_needed=5),
-        Level(speed=10, obstacles=[], food_needed=10),
+        Level(speed=10, obstacles=obstacles, food_needed=10),
         Level(speed=15, obstacles=[], food_needed=15),
         Level(speed=20, obstacles=obstacles, food_needed=20)
     ]
